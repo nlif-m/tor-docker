@@ -14,7 +14,7 @@ $ docker run \
     --detach \
     --name tor \
     --publish 9050:9050 \ # change the port to whatever you put in the torrc
-    palnabarun/tor
+    ghcr.io/nlif-m/tor-docker:master
 ...
 ```
 
@@ -29,7 +29,7 @@ $ docker run \
     --name tor \
     --volume $PWD/torrc:/etc/tor/torrc
     --publish 9050:9050 \ # change the port to whatever you put in the torrc
-    palnabarun/tor
+    ghcr.io/nlif-m/tor-docker:master
 ...
 ```
 
